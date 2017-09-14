@@ -1,0 +1,96 @@
+---
+title: "CodeBook"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Code book for Coursera Getting and Cleaning Data course project
+
+This code book summarizes the resulting data fields in 'tidy.txt'.
+
+## Variables
+
+### Identifiers
+
+* 'subject' - The ID of the test subject
+* 'activity' - The type of activity performed when the corresponding measurements were taken
+  * 'WALKING': subject was walking
+  * 'WALKING_UPSTAIRS': subject was walking upstairs
+  * 'WALKING_DOWNSTAIRS': subject was walking downstairs
+  * 'SITTING': subject was sitting
+  * 'STANDING': subject was standing
+  * 'LAYING': subject was laying
+
+### Measurements
+
+'timeDomainBodyAccelerometerMeanX'
+'timeDomainBodyAccelerometerMeanY'
+'timeDomainBodyAccelerometerMeanZ'
+'timeDomainBodyAccelerometerStandardDeviationX'
+'timeDomainBodyAccelerometerStandardDeviationY'
+'timeDomainBodyAccelerometerStandardDeviationZ'
+'timeDomainGravityAccelerometerMeanX'
+'timeDomainGravityAccelerometerMeanY'
+'timeDomainGravityAccelerometerMeanZ'
+'timeDomainGravityAccelerometerStandardDeviationX'
+'timeDomainGravityAccelerometerStandardDeviationY'
+'timeDomainGravityAccelerometerStandardDeviationZ'
+'timeDomainBodyAccelerometerJerkMeanX'
+'timeDomainBodyAccelerometerJerkMeanY'
+'timeDomainBodyAccelerometerJerkMeanZ'
+'timeDomainBodyAccelerometerJerkStandardDeviationX'
+'timeDomainBodyAccelerometerJerkStandardDeviationY'
+'timeDomainBodyAccelerometerJerkStandardDeviationZ'
+'timeDomainBodyGyroscopeMeanX'
+'timeDomainBodyGyroscopeMeanY'
+'timeDomainBodyGyroscopeMeanZ'
+'timeDomainBodyGyroscopeStandardDeviationX'
+'timeDomainBodyGyroscopeStandardDeviationY'
+'timeDomainBodyGyroscopeStandardDeviationZ'
+'timeDomainBodyGyroscopeJerkMeanX'
+'timeDomainBodyGyroscopeJerkMeanY'
+'timeDomainBodyGyroscopeJerkMeanZ'
+'timeDomainBodyGyroscopeJerkStandardDeviationX'
+'timeDomainBodyGyroscopeJerkStandardDeviationY'
+'timeDomainBodyGyroscopeJerkStandardDeviationZ'
+'timeDomainBodyAccelerometerMagnitudeMean'
+'timeDomainBodyAccelerometerMagnitudeStandardDeviation'
+'timeDomainGravityAccelerometerMagnitudeMean'
+'timeDomainGravityAccelerometerMagnitudeStandardDeviation'
+'timeDomainBodyAccelerometerJerkMagnitudeMean'
+'timeDomainBodyAccelerometerJerkMagnitudeStandardDeviation'
+'timeDomainBodyGyroscopeMagnitudeMean'
+'timeDomainBodyGyroscopeMagnitudeStandardDeviation'
+'timeDomainBodyGyroscopeJerkMagnitudeMean'
+'timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation'
+'frequencyDomainBodyAccelerometerMeanX'
+'frequencyDomainBodyAccelerometerMeanY'
+'frequencyDomainBodyAccelerometerMeanZ'
+'frequencyDomainBodyAccelerometerStandardDeviationX'
+'frequencyDomainBodyAccelerometerStandardDeviationY'
+'frequencyDomainBodyAccelerometerStandardDeviationZ'
+'frequencyDomainBodyAccelerometerJerkMeanX'
+'frequencyDomainBodyAccelerometerJerkMeanY'
+'frequencyDomainBodyAccelerometerJerkMeanZ'
+'frequencyDomainBodyAccelerometerJerkStandardDeviationX'
+'frequencyDomainBodyAccelerometerJerkStandardDeviationY'
+'frequencyDomainBodyAccelerometerJerkStandardDeviationZ'
+'frequencyDomainBodyGyroscopeMeanX'
+'frequencyDomainBodyGyroscopeMeanY'
+'frequencyDomainBodyGyroscopeMeanZ'
+'frequencyDomainBodyGyroscopeStandardDeviationX'
+'frequencyDomainBodyGyroscopeStandardDeviationY'
+'frequencyDomainBodyGyroscopeStandardDeviationZ'
+'frequencyDomainBodyAccelerometerMagnitudeMean'
+'frequencyDomainBodyAccelerometerMagnitudeStandardDeviation'
+'frequencyDomainBodyAccelerometerJerkMagnitudeMean'
+'frequencyDomainBodyAccelerometerJerkMagnitudeStandardDeviation'
+'frequencyDomainBodyGyroscopeMagnitudeMean'
+'frequencyDomainBodyGyroscopeMagnitudeStandardDeviation'
+'frequencyDomainBodyGyroscopeJerkMagnitudeMean'
+'frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation'
+
+
